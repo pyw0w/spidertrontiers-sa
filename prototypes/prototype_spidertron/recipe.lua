@@ -1,6 +1,6 @@
 local prototype_spidertron = {
 	type = "recipe",
-	icon = "__spidertrontiers-cu-fix__/graphics/icons/prototype_spidertron.png",
+	icon = "__spidertrontiers-sa__/graphics/icons/prototype_spidertron.png",
 	name = "prototype_spidertron",
 	enabled = false,
 	energy_required = 120,

@@ -3,7 +3,7 @@ local bulwark_spidertron_mk2
 if settings.startup["stack-spidertron-recipes"].value == true then
 	bulwark_spidertron_mk2 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/bulwark_spidertron_mk2.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/bulwark_spidertron_mk2.png",
 		name = "bulwark_spidertron_mk2",
 		enabled = false,
 		category = "crafting-with-fluid",
@@ -29,7 +29,7 @@ else
 	bulwark_spidertron_mk2 = {
 		type = "recipe",
 		name = "bulwark_spidertron_mk2",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/bulwark_spidertron_mk2.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/bulwark_spidertron_mk2.png",
 		enabled = false,
 		energy_required = 10,
 		ingredients = {

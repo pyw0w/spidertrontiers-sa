@@ -4,7 +4,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 	scout_spidertron_mk1 = {
 		type = "recipe",
 		name = "scout_spidertron_mk1",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/scout_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/scout_spidertron_mk1.png",
 		enabled = false,
 		energy_required = 120,
 		ingredients = {
@@ -24,7 +24,7 @@ else
 	scout_spidertron_mk1 = {
 		type = "recipe",
 		name = "scout_spidertron_mk1",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/scout_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/scout_spidertron_mk1.png",
 		enabled = false,
 		energy_required = 10,
 		ingredients = {

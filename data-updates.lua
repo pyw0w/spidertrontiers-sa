@@ -1,4 +1,4 @@
-require("__spidertrontiers-cu-fix__.prototypes.spidertron.item")
-require("__spidertrontiers-cu-fix__.prototypes.spidertron.recipe")
-require("__spidertrontiers-cu-fix__.prototypes.spidertron.technology")
-require("__spidertrontiers-cu-fix__.prototypes.spidertron.entity")
+require("__spidertrontiers-sa__.prototypes.spidertron.item")
+require("__spidertrontiers-sa__.prototypes.spidertron.recipe")
+require("__spidertrontiers-sa__.prototypes.spidertron.technology")
+require("__spidertrontiers-sa__.prototypes.spidertron.entity")

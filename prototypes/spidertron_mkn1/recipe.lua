@@ -1,7 +1,7 @@
 local spidertron_mk_1 = {
 	type = "recipe",
 	name = "spidertron_mkn1",
-	icon = "__spidertrontiers-cu-fix__/graphics/icons/spidertron_mkn1.png",
+	icon = "__spidertrontiers-sa__/graphics/icons/spidertron_mkn1.png",
 	enabled = false,
 	category = "crafting-with-fluid",
 	energy_required = 120,

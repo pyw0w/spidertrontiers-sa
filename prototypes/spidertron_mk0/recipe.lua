@@ -4,7 +4,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 	spidertron_mk0 = {
 		type = "recipe",
 		name = "spidertron_mk0",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/spidertron_mk0.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/spidertron_mk0.png",
 		enabled = false,
 		category = "crafting-with-fluid",
 		energy_required = 120,
@@ -34,7 +34,7 @@ else
 	spidertron_mk0 = {
 		type = "recipe",
 		name = "spidertron_mk0",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/spidertron_mk0.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/spidertron_mk0.png",
 		enabled = false,
 		energy_required = 10,
 		ingredients = {

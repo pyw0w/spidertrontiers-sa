@@ -1,9 +1,9 @@
-local weight = require("__spidertrontiers-cu-fix__.lib.weight")
+local weight = require("__spidertrontiers-sa__.lib.weight")
 
 local prototype_spidertron = {
     type = "item-with-entity-data",
     name = "prototype_spidertron",
-    icon = "__spidertrontiers-cu-fix__/graphics/icons/prototype_spidertron.png",
+    icon = "__spidertrontiers-sa__/graphics/icons/prototype_spidertron.png",
     icon_size = 64, icon_mipmaps = 4,
     subgroup = "transport",
     place_result="prototype_spidertron",

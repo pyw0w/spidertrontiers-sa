@@ -3,7 +3,7 @@ local assault_spidertron_mk1
 if settings.startup["stack-spidertron-recipes"].value == true then
 	assault_spidertron_mk1 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/assault_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/assault_spidertron_mk1.png",
 		name = "assault_spidertron_mk1",
 		enabled = false,
 		energy_required = 120,
@@ -23,7 +23,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 else
 	assault_spidertron_mk1 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/assault_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/assault_spidertron_mk1.png",
 		name = "assault_spidertron_mk1",
 		enabled = false,
 		energy_required = 120,

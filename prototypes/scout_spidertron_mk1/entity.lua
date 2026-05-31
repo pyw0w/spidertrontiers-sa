@@ -1,15 +1,15 @@
 local sounds = require("__base__.prototypes.entity.sounds")
 local scout_spidertron_mk1_animations =
-	require("__spidertrontiers-cu-fix__.spidertron_animations.scout_spidertron_mk1-animations")
-local ground_triggers = require("__spidertrontiers-cu-fix__.prototypes.ground_triggers")
-local simulation = require("__spidertrontiers-cu-fix__.prototypes.scout_spidertron_mk1.simulation")
+	require("__spidertrontiers-sa__.spidertron_animations.scout_spidertron_mk1-animations")
+local ground_triggers = require("__spidertrontiers-sa__.prototypes.ground_triggers")
+local simulation = require("__spidertrontiers-sa__.prototypes.scout_spidertron_mk1.simulation")
 
 local scout_spidertron_mk1 = {
 	type = "spider-vehicle",
 	name = "scout_spidertron_mk1",
 	collision_box = { { -1, -1 }, { 1, 1 } },
 	selection_box = { { -1, -1 }, { 1, 1 } },
-	icon = "__spidertrontiers-cu-fix__/graphics/icons/scout_spidertron_mk1.png",
+	icon = "__spidertrontiers-sa__/graphics/icons/scout_spidertron_mk1.png",
 	mined_sound = { filename = "__core__/sound/deconstruct-large.ogg", volume = 0.8 },
 	open_sound = { filename = "__base__/sound/spidertron/spidertron-door-open.ogg", volume = 0.35 },
 	close_sound = { filename = "__base__/sound/spidertron/spidertron-door-close.ogg", volume = 0.4 },
@@ -79,7 +79,7 @@ local scout_spidertron_mk1 = {
 		},
 	},
 	minimap_representation = {
-		filename = "__spidertrontiers-cu-fix__/graphics/entity/scout_spidertron_mk1/spidertron-map.png",
+		filename = "__spidertrontiers-sa__/graphics/entity/scout_spidertron_mk1/spidertron-map.png",
 		flags = { "icon" },
 		size = { 128, 128 },
 		scale = 0.5,
@@ -134,7 +134,7 @@ local scout_spidertron_mk1 = {
 local scout_spidertron_mk1_remnants = {
 	type = "corpse",
 	name = "scout-spidertron-mk1-remnants",
-	icon = "__spidertrontiers-cu-fix__/graphics/icons/scout_spidertron_mk1.png",
+	icon = "__spidertrontiers-sa__/graphics/icons/scout_spidertron_mk1.png",
 	icon_size = 64,
 	icon_mipmaps = 4,
 	flags = { "placeable-neutral", "not-on-map" },
@@ -150,7 +150,7 @@ local scout_spidertron_mk1_remnants = {
 	animation = make_rotated_animation_variations_from_sheet(1, {
 		layers = {
 			{
-				filename = "__spidertrontiers-cu-fix__/graphics/entity/scout_spidertron_mk1/remnants/spidertron-remnants.png",
+				filename = "__spidertrontiers-sa__/graphics/entity/scout_spidertron_mk1/remnants/spidertron-remnants.png",
 				line_length = 1,
 				width = 224,
 				height = 224,
@@ -160,7 +160,7 @@ local scout_spidertron_mk1_remnants = {
 				direction_count = 1,
 				shift = util.by_pixel(0, 0),
 				r_version = {
-					filename = "__spidertrontiers-cu-fix__/graphics/entity/scout_spidertron_mk1/remnants/hr-spidertron-remnants.png",
+					filename = "__spidertrontiers-sa__/graphics/entity/scout_spidertron_mk1/remnants/hr-spidertron-remnants.png",
 					line_length = 1,
 					width = 448,
 					height = 448,
@@ -174,7 +174,7 @@ local scout_spidertron_mk1_remnants = {
 			},
 			{
 				priority = "low",
-				filename = "__spidertrontiers-cu-fix__/graphics/entity/scout_spidertron_mk1/remnants/mask/spidertron-remnants-mask.png",
+				filename = "__spidertrontiers-sa__/graphics/entity/scout_spidertron_mk1/remnants/mask/spidertron-remnants-mask.png",
 				width = 184,
 				height = 176,
 				frame_count = 1,
@@ -184,7 +184,7 @@ local scout_spidertron_mk1_remnants = {
 				shift = util.by_pixel(9, 1),
 				hr_version = {
 					priority = "low",
-					filename = "__spidertrontiers-cu-fix__/graphics/entity/scout_spidertron_mk1/remnants/mask/hr-spidertron-remnants-mask.png",
+					filename = "__spidertrontiers-sa__/graphics/entity/scout_spidertron_mk1/remnants/mask/hr-spidertron-remnants-mask.png",
 					width = 366,
 					height = 350,
 					frame_count = 1,

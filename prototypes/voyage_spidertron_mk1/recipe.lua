@@ -3,7 +3,7 @@ local voyage_spidertron_mk1
 if settings.startup["stack-spidertron-recipes"].value == true then
 	voyage_spidertron_mk1 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/voyage_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/voyage_spidertron_mk1.png",
 		name = "voyage_spidertron_mk1",
 		enabled = false,
 		category = "crafting-with-fluid",
@@ -28,7 +28,7 @@ else
 	voyage_spidertron_mk1 = {
 		type = "recipe",
 		name = "voyage_spidertron_mk1",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/voyage_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/voyage_spidertron_mk1.png",
 		enabled = false,
 		category = "crafting-with-fluid",
 		energy_required = 10,

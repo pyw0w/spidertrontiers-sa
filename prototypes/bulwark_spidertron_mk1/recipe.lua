@@ -3,7 +3,7 @@ local bulwark_spidertron_mk1
 if settings.startup["stack-spidertron-recipes"].value == true then
 	bulwark_spidertron_mk1 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/bulwark_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/bulwark_spidertron_mk1.png",
 		name = "bulwark_spidertron_mk1",
 		enabled = false,
 		energy_required = 120,
@@ -21,7 +21,7 @@ if settings.startup["stack-spidertron-recipes"].value == true then
 else
 	bulwark_spidertron_mk1 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/bulwark_spidertron_mk1.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/bulwark_spidertron_mk1.png",
 		name = "bulwark_spidertron_mk1",
 		enabled = false,
 		energy_required = 120,

@@ -1,20 +1,19 @@
 {
-    "name": "spidertrontiers-cu-fix",
+    "name": "spidertrontiers-sa",
     "version": "26.3.3",
-    "title": "Spidertron Tiers (cu fix)",
-    "author": "Returner_org",
+    "title": "Spidertron Tiers (SA)",
+    "author": "PyW0W",
     "contact": "",
     "homepage": "https://discord.gg/ZMtsbFvUfQ",
     "factorio_version": "2.0",
     "dependencies": [
         "base >= 2.0",
         "? bobvehicleequipment >= 1.0.0",
-        "? alien-biomes >= 0.6.4",
         "? space-exploration >= 0.5.10",
         "! spidertrontiers-circulardependency",
         "! spidertrontiers",
         "! spidertrontiers-community-updates",
-        "! Krastorio2"
+        "! spidertrontiers-cu-fix"
     ],
     "description": "Adds 13 new unique Spidertrons! Whether high firepower, early game, speed, inventory size or fog war reveal, there is something for everyone."
 }

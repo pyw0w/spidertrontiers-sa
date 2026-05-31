@@ -2,7 +2,7 @@ local assault_spidertron_mk2 = {
     type = "technology",
     name = "assault_spidertron_mk2",
     icon_size = 128,
-    icon = "__spidertrontiers-cu-fix__/graphics/technology/assault_spidertron_mk2.png",
+    icon = "__spidertrontiers-sa__/graphics/technology/assault_spidertron_mk2.png",
     effects = {
         {
             type = "unlock-recipe",

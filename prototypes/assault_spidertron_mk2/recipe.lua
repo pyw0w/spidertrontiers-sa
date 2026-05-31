@@ -3,7 +3,7 @@ local assault_spidertron_mk2
 if settings.startup["stack-spidertron-recipes"].value == true then
 	assault_spidertron_mk2 = {
 		type = "recipe",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/assault_spidertron_mk2.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/assault_spidertron_mk2.png",
 		name = "assault_spidertron_mk2",
 		enabled = false,
 		category = "crafting-with-fluid",
@@ -30,7 +30,7 @@ else
 	assault_spidertron_mk2 = {
 		type = "recipe",
 		name = "assault_spidertron_mk2",
-		icon = "__spidertrontiers-cu-fix__/graphics/icons/assault_spidertron_mk2.png",
+		icon = "__spidertrontiers-sa__/graphics/icons/assault_spidertron_mk2.png",
 		enabled = false,
 		energy_required = 10,
 		ingredients = {

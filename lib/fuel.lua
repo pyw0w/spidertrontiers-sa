@@ -8,40 +8,6 @@ local fuelTiers = {
     { 'chemical' },
 }
 
--- should do this by inserting and removing, instead of hardcoding each possible combination of mods,
--- but right now i dont know how and it is good enough for now.
-if mods["Krastorio2"] then
-    fuelTiers = {
-        { 'chemical' },
-        { 'chemical', "vehicle-fuel" },
-        { "chemical", "vehicle-fuel", 'nuclear-fuel', 'nuclear' },
-        { 'nuclear-fuel', 'fusion-fuel', 'nuclear' },
-        { 'fusion-fuel' },
-        { 'antimatter-fuel' },
-    }
-end
-if mods["aai-industry"] then
-    fuelTiers = {
-        { 'chemical', "processed-chemical" },
-        { 'chemical', "processed-chemical" },
-        { 'chemical', "processed-chemical" },
-        { 'chemical', "processed-chemical" },
-        { 'chemical', "processed-chemical" },
-        { 'chemical', "processed-chemical" },
-    }
-end
-if mods["Krastorio2"] and mods["aai-industry"] then
-    fuelTiers = {
-        { 'chemical', "vehicle-fuel", "processed-chemical" },
-        { 'chemical', "vehicle-fuel", "processed-chemical" },
-        { "chemical", "vehicle-fuel", 'nuclear-fuel', 'nuclear', "processed-chemical" },
-        { 'nuclear-fuel', 'fusion-fuel', 'nuclear' },
-        { 'fusion-fuel' },
-        { 'antimatter-fuel' },
-    }
-end
-
-
 return {
     addEnergySource = function(spidertron, usageKw, fuelTier)
         spidertron.energy_source = {
