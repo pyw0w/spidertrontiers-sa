@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 26.4.0
+Date: 2026-05-31
+  Changes:
+    - Renamed mod from spidertrontiers-cu-fix to spidertrontiers-sa
+    - Removed Krastorio2 compatibility (fuel categories, tesla coil targeting)
+    - Removed AAI Industry compatibility (fuel categories)
+    - Removed Alien Biomes optional dependency
+---------------------------------------------------------------------------------------------------
 Version: 26.3.3
 Date: 2026-04-09
   Changes:
