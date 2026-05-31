@@ -6,6 +6,13 @@ Date: 2026-05-31
     - Removed Krastorio2 compatibility (fuel categories, tesla coil targeting)
     - Removed AAI Industry compatibility (fuel categories)
     - Removed Alien Biomes optional dependency
+    - Added Space Age compatibility: spidertrons tiered by planet
+      - Prototype, Scout/Assault/Bulwark/Voyage Mk1, mkn1, mk0 → Nauvis
+      - Assault Mk2 → Vulcanus (metallurgic science pack)
+      - Scout Mk2 → Fulgora (electromagnetic science pack)
+      - Bulwark Mk2 → Gleba (agricultural science pack)
+      - Voyage Mk2 → Aquilo (cryogenic science pack)
+    - Extracted compatibility logic into prototypes/compatibility/ modules
 ---------------------------------------------------------------------------------------------------
 Version: 26.3.3
 Date: 2026-04-09
