@@ -53,6 +53,7 @@ end
 
 Текущие модули:
 - `equipment-grid-sync.lua` — копирует категории оборудования ванильного спайдертрона во все 13 гридов. Работает с любым модом без явных проверок.
+- `space-age.lua` — распределяет спайдертроны по планетам Space Age: Assault Mk2 → Vulcanus, Scout Mk2 → Fulgora, Bulwark Mk2 → Gleba, Voyage Mk2 → Aquilo.
 
 Для добавления совместимости с новым модом:
 1. Создать `prototypes/compatibility/<mod-name>.lua`
