@@ -29,6 +29,7 @@
 - `prototypes/utils.lua` — фабрика `make_spidertron_leg()` (устанавливается как глобальный `utils` в data.lua)
 - `prototypes/ground_triggers.lua` — эффект удара ноги о землю
 - `prototypes/sub_group_spidertron.lua` — определение подгруппы предметов
+- `prototypes/compatibility/` — совместимость с другими модами (см. ниже)
 - `lib/fuel.lua` — энергосource-горелка с категориями топлива
 - `lib/weight.lua` — **сломан**: ссылается на неопределённый глобал `tons`, нигде не используется
 - `change_vanilla_spidertron.lua` — изменяет подгруппу ванильного спайдертрона
@@ -39,7 +40,24 @@
 
 ## Совместимость с другими модами
 
-`data-final-fixes.lua` ветвится по `mods["space-exploration"]` для синхронизации гридов оборудования.
+Логика совместимости вынесена в `prototypes/compatibility/`. Каждый файл — самодостаточный модуль с ранним выходом:
+
+```lua
+if not mods["ModName"] then
+    return
+end
+-- код совместимости
+```
+
+Файлы загружаются из `data-final-fixes.lua` (после всех модов).
+
+Текущие модули:
+- `equipment-grid-sync.lua` — копирует категории оборудования ванильного спайдертрона во все 13 гридов. Работает с любым модом без явных проверок.
+
+Для добавления совместимости с новым модом:
+1. Создать `prototypes/compatibility/<mod-name>.lua`
+2. Добавить `require("__spidertrontiers-sa__.prototypes.compatibility.<mod-name>")` в `data-final-fixes.lua`
+3. Добавить `? mod-name >= version` в `info.json` dependencies
 
 ## Стартап-настройки
 
