@@ -1,0 +1,246 @@
+---------------------------------------------------------------------------------------------------
+Version: 26.3.3
+Date: 2026-04-09
+  Changes:
+
+---------------------------------------------------------------------------------------------------
+Version: 26.3.2
+Date: 2026-03-21
+  Compatibility:
+    - Fix recipe request surface
+---------------------------------------------------------------------------------------------------
+Version: 26.3.1
+Date: 2026-03-21
+  Compatibility:
+    - Fix recipes
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 16.11.2024
+  Compatibility:
+    - Changes fusion reactor to fission reactor in recipes for 2.0 vanilla compatibility
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 15.11.2024
+  Compatibility:
+    - Added Space Age compatibility
+---------------------------------------------------------------------------------------------------
+Version: 0.2.27
+Date: 15.07.2022
+  Compatibility:
+    - Added Krastorio2 tesla coil compatibility
+---------------------------------------------------------------------------------------------------
+Version: 0.2.26
+Date: 07.07.2022
+  Changes:
+    - When using Krastorio2, added vehicle fuel also to lowest tiers of spidertrons
+---------------------------------------------------------------------------------------------------
+Version: 0.2.25
+Date: 04.07.2022
+  Compatibility:
+    - Added fuel usage compatibility with AAI industry
+---------------------------------------------------------------------------------------------------
+Version: 0.2.24
+Date: 02.07.2022
+  Features:
+    - Added fuel usage to spidertrons. This feature is toggleable in mod settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.23
+Date: 19.06.2022
+  Bugfixes:
+    - Fixed possible compatibility issue with Constructron
+---------------------------------------------------------------------------------------------------
+Version: 0.2.22
+Date: 15.06.2022
+  Changes:
+    - Improved handling of Bulwark Spidertron Mk2
+  Bugfixes:
+    - Fixed that Assault Spidertron Mk2 was sometimes slower than usual
+    - Spider legs now do not collide with cannon shells. So spidertrons will now not shoot themselves in legs.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.21
+Date: 15.06.2022
+  Changes:
+    - Mod compatibility with mods that change equipment categories of spidertrons
+    - Unified changelog dates format
+---------------------------------------------------------------------------------------------------
+Version: 0.2.20
+Date: 09.03.2022
+  Changes:
+    - Fix mod packaging error
+---------------------------------------------------------------------------------------------------
+Version: 0.2.19
+Date: 09.03.2022
+  Changes:
+    - Fix K2SE dependency loop
+---------------------------------------------------------------------------------------------------
+Version: 0.2.18
+Date: 14.03.2021
+  Changes:
+    - Changed technology of Spidertron Remote
+---------------------------------------------------------------------------------------------------
+Version: 0.2.17
+Date: 14.03.2021
+  Changes:
+    - Changed recipe of Spidertron Remote
+---------------------------------------------------------------------------------------------------
+Version: 0.2.16
+Date: 01.02.2021
+  Bugfixes:
+    - Fixed Logistics Grid
+---------------------------------------------------------------------------------------------------
+Version: 0.2.15
+Date: 02.02.2021
+  Changes:
+    - Added Compatibility with Space Exploration
+---------------------------------------------------------------------------------------------------
+Version: 0.2.14
+Date: 01.02.2021
+  Changes:
+    - Added Compatibility with Companion Drones & Alien Biomes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.13
+Date: 26.1.2021
+  Changes:
+    - Update to Factorio 1.1
+---------------------------------------------------------------------------------------------------
+Version: 0.2.12
+Date: 26.10.2020
+  Changes:
+    - Balancing Changes buffing specialised spidertrons
+---------------------------------------------------------------------------------------------------
+Version: 0.2.11
+Date: 19.09.2020
+  Additions:
+    - Startup option that removes the 'stacking' recipes of the Spidertrons! If the setting is enabled, you don't have to craft every spidertron lower than Mk3 to craft Mk3
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.10
+Date: 26.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.9
+Date: 25.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.8
+Date: 24.08.2020
+  Bugfixes:
+    - Fixed Changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.2.7
+Date: 24.08.2020
+  Additions:
+    - Added Changelog
+---------------------------------------------------------------------------------------------------
+Version: 0.2.6
+Date: 24.08.2020
+  Changes:
+    - Minor Balance Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 24.08.2020
+  Bugfixes:
+    - Fixed Bug with Vanilla Spidertrons not having rendered legs
+  Additions:
+    - Made Compatible with Bobingabout's Bobs Vehicle Equipment Mod
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 23.08.2020
+  Changes:
+    - Spidertron Mk3 now requires Space Science to Research
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 23.08.2020
+  Additions:
+    - Added a startup setting that disables the rendering of spidertron legs for those who find them unsettling
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 21.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 21.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 21.08.2020
+  Additions:
+    - Prototype Spidertron
+    - Assault Spidertron Mk1
+    - Assault Spidertron Mk2
+    - Bulwark Spidertron Mk1
+    - Bulwark Spidertron Mk2
+    - Scout Spidertron Mk1
+    - Scout Spidertron Mk2
+    - Voyage Spidertron Mk1
+    - Voyage Spidertron Mk2
+  Changes:
+    - Research Tree
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.9
+Date: 17.08.2020
+  Bugfixes:
+    - Fixes Mk-1 Spidertron Automatic Weapon Cycling
+---------------------------------------------------------------------------------------------------
+Version: 0.1.8
+Date: 17.08.2020
+  Changes:
+    - Spidertron Mk3 is now decapedal
+    - Reduced blur on the Spidertron Mk2 Texture
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 17.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 17.08.2020
+  Changes:
+    - Improved Spidertron Legs
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 17.08.2020
+  Changes:
+    - Adjusted graphics to fit Spidertron leg Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 16. 08. 2020
+  Changes:
+    - Spidertrons have different number of legs
+    - Spidertrons have different movement speeds
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 17.08.2020
+  Changes:
+    - Spidertrons have different ranges
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 16.08.2020
+  Changes:
+    - Fixed Rocket Parts in Recipe of Spidertron Mk3
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 16.08.2020
+  Changes:
+    - Minor Balancing Changes
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 16.08.2020
+  Additions:
+    - Spidertron Mk-1
+    - Spidertron Mk0
+  Changes:
+    - Research Tree
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 15.08.2020
+  Additions:
+    - Spidertron Mk2
+    - Spidertron Mk3
